@@ -1,0 +1,53 @@
+.translator-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #853eb1, #44c7d8);
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .input-text {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .language-select {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .translate-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #6a1b9a;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .translate-button:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .translated-text {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

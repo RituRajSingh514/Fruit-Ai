@@ -1,0 +1,171 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5; 
+  }
+  
+  .login-container {
+    width: 400px;
+    padding: 40px;
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #000; 
+  }
+  
+  .login-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #000; 
+  }
+  
+  .login-container p {
+    margin-bottom: 15px;
+    color: #000;
+  }
+  
+  .login-options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-options a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: gray;
+    font-weight: bold;
+  }
+  
+  .login-options a.active {
+    color: #007bff;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #000000; 
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #080808; 
+    background-color: #ece7e7;
+  }
+  
+  .show-password-btn {
+    position: absolute;
+    right: 10px;
+    top: 40%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ece7e7;
+  }
+  
+  .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .remember-forgot label {
+    display: flex;
+    align-items: center;
+    color: #000; 
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .social-login {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  .social-login a {
+    margin: 0 10px;
+  }
+  
+  .fingerprint-login img {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .social-login a {
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .social-icon {
+    font-size: 24px;
+    color: #fff;
+    padding: 20px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-icon.facebook {
+    background-color: #3b5998; 
+  }
+  
+  .social-icon.instagram {
+    background-color: #E4405F; 
+  }
+  
+  .social-icon.pinterest {
+    background-color: #BD081C; 
+  }
+  
+  .social-icon.linkedin {
+    background-color: #0077b5; 
+  }
+  
+  .social-login a:hover .social-icon {
+    opacity: 0.8;
+  }
+  
+  
